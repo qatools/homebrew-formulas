@@ -6,7 +6,7 @@ class AllureCli < Formula
   head 'https://github.com/allure-framework/allure-core.git'
   sha1 '013c6a69bb67dbd9696b0b7c1c8ccb33c4725850'
   version "1.4.18"
-
+  conflicts_with "allure-cli", :because => "the old version of Allure commandline was installed"
 
   def install
     jarname = 'allure-commandline.jar'
