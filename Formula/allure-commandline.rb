@@ -1,6 +1,6 @@
 require 'formula'
 
-class AllureCli < Formula
+class AllureCommandline < Formula
   homepage 'https://github.com/allure-framework/'
   url 'https://github.com/allure-framework/allure-core/releases/download/allure-core-1.4.18/allure-commandline.zip'
   head 'https://github.com/allure-framework/allure-core.git'
