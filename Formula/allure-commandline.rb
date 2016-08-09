@@ -5,7 +5,7 @@ class AllureCommandline < Formula
   homepage 'http://allure.qatools.ru/'
   url 'https://github.com/allure-framework/allure-core/releases/download/allure-core-1.4.23/allure-commandline.zip'
   head 'https://github.com/allure-framework/allure-core.git'
-  sha1 '4bc0984a0c178b8abe6cc1f036ae658aa087bbc7'
+  sha256 '030cf84ce0bbbb3475f2ab26f3ccac4df99b539f85238687ece12c087d3d70c9'
   version "1.4.23"
 
   def install
